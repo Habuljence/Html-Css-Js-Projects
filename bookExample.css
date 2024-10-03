@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.bodyDiv
+{
+    width: 100vw;
+    height: 100vh;    
+}
+
+.navBarDiv
+{
+    /* background-color: aquamarine; */
+    background-color: wheat;
+    
+    width: 100%;
+    height: 8%;
+    
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 3px 3px 3px gray;
+}
+
+.LnavBarDiv
+{
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+
+    margin-left: 1vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.RnavBarDiv
+{
+    /* background-color: green; */
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainSiteDiv
+{
+    /* background: red; */
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow-y: hidden;
+}
+
+.sideBarDiv
+{
+    /* background-color: blueviolet; */
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 3px gray;
+
+    width: 15%;
+    height: 100%;
+
+    margin-top: 4%;
+
+    position: fixed;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBarDiv
+{
+    /* background-color: brown; */
+    background-color: ivory;
+
+    width: 85%;
+    height: 95%;
+
+    margin-left: 15%;
+    margin-top: 4%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperDiv
+{
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bookBigDiv
+{
+    background-color: white;
+
+    height: 80%;
+    width: 35%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 4vh;
+    margin-left: 6vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .lowerDiv
+{
+    background-color: beige;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.imgBigS
+{
+    height: 80%;
+}
+
+.infoAboutBookDiv
+{
+    width: 55%;
+    height: 80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.bookNameS
+{
+    padding: 3vh;
+    font-size: 4vh;
+}
+
+.priceS
+{
+    font-size: 3vh;
+    color: gray;
+    margin-left: 3.5%;
+    display: inline-flex;
+}
+
+.bookTextsS
+{
+    font-size: 2vh;
+    padding: 3vh;
+}
+
+.addCartS
+{
+    width: 30%;
+    height: 6vh;
+    margin-left: 3vh;
+    color: white;
+    background-color: brown;
+    font-size: 2vh;
+    border-radius: 15px;
+    border: 1px solid gray;
+    transition: opacity 0.25s;
+}
+
+.addCartS:hover
+{
+    opacity: 0.8;
+}
+
+.addCartS:active
+{
+    opacity: 0.6;
+}
+

@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyDiv
+{
+    height: 100vh;
+    width: 100wv;;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formUpperDiv
+{
+    width: 100%;
+    height: 20%;
+
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.formLowerDiv
+{
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formDiv
+{
+    background-color: beige;
+    border: 1px solid gray;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.smallInputS
+{
+    width: 42.5%;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 2vh;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.smallInputS::placeholder
+{
+    font-style: italic;
+}
+
+.bigInputS
+{
+    width: 90%;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 2vh;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.bigInputS::placeholder
+{
+    font-style: italic;
+}
+
+.submitBtnS
+{
+    background-color: brown;
+    width: 30%;
+    height: 6vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 2vh;
+    color: white;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+.submitBtnS:hover
+{
+    background-color: rgb(245, 187, 100);
+    opacity: 0.8;
+}
+
+.submitBtnS:active
+{
+    background-color: beige;
+    opacity: 0.6;
+}
+
+.messageS
+{
+    font-size: 3vh;
+    position: absolute;
+    top: 4vh;
+    left: 20vh;
+    color: rgb(35, 35, 35);
+}

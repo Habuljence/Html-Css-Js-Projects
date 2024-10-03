@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.numberS
+{
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.mainDiv
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cardDiv
+{
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.numberDiv
+{
+    border: 1px solid rgb(59, 87, 52);
+    width: 250px;
+    height: 250px;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(131, 206, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsDiv
+{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(98, 136, 98);
+    border-radius: 10px;
+    border: 1px solid rgb(15, 71, 1);
+    border-top: none;
+}    
+
+button
+{
+    padding: 6px;
+    border-radius: 5px;
+    background-color: rgb(28, 73, 28);
+    color: white;
+    transition: opacity 0.25s;
+    cursor: pointer;
+}
+
+button:hover
+{
+    opacity: 0.6;
+}
+
+button:active
+{
+    opacity: 0.3;
+}

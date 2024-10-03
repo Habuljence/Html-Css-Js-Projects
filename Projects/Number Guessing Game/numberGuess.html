@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="numberGuess.css">
+</head>
+<body>
+    <div class="interFaceDiv">
+        <div class="numOfAttemptsDiv">
+            <p class="guessS">Broj pokušaja:</p>
+            <p class="guessS" id="attemptsJ">0</p>
+        </div>
+        <div class="GuessingSectionDiv">
+            <p class="middleS">Pogodite broj (1 - 1000):</p>
+            <input class="guessInptS" id="inputJ" type="text">
+            <button class="guessBtnS" id="guessJ">
+                Pogodi
+            </button>
+            <button class="guessBtnS" id="resetBtn">
+                Resetuj
+            </button>
+        </div>
+        <div class="estimateDiv">
+            <p id="estimateJ"></p>
+        </div>
+    </div>
+    <script src="numberGuess.js"></script>
+</body>
+</html>

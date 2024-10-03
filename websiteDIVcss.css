@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bodyDiv
+{
+    width: 100vw;
+    height: 100vh;    
+}
+
+.navBarDiv
+{
+    /* background-color: aquamarine; */
+    background-color: wheat;
+    
+    width: 100%;
+    height: 8%;
+    
+    position: absolute;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 3px 3px 3px gray;
+}
+
+.LnavBarDiv
+{
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+
+    margin-left: 1vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.RnavBarDiv
+{
+    /* background-color: green; */
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.mainSiteDiv
+{
+    /* background: red; */
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.sideBarDiv
+{
+    /* background-color: blueviolet; */
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 3px gray;
+
+    width: 15%;
+    height: 100%;
+
+    margin-top: 4%;
+
+    position: fixed;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBarDiv
+{
+    /* background-color: brown; */
+    background-color: ivory;
+
+    width: 85%;
+    height: 90%;
+
+    overflow-x: hidden;
+
+    margin-left: 15%;
+    margin-top: 4%;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardDiv
+{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0 2vh;
+}
+
+.articleCardDiv
+{
+    background-color: white;
+
+    width: 18%;
+    height: 95%;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    position: relative;
+
+    box-shadow: 3px 3px 3px gray;
+
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.visibleArticleDiv
+{
+    width: 100%;
+    height: 100%;
+
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overLayArticleDiv
+{
+    background-color: rgba(125, 125, 125, 0.5);
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border: none;
+    border-radius: 10px;
+
+    display: none;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articleCardDiv:hover .overLayArticleDiv
+{
+    display: flex;
+}
+
+.bookImgDiv
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.articleInfoDiv
+{
+    background-color: beige;
+    border-radius: 10px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

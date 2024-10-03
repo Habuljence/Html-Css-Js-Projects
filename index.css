@@ -1,0 +1,41 @@
+*
+{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+
+}
+
+.mainBodyDiv
+{
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+img
+{
+    height: 100%;
+}
+
+.sajt1Div
+{
+    height: 60vh;
+}
+
+.sajt2Div
+{
+    height: 60vh;
+}
+
+.sajt3Div
+{
+    height: 55.6vh;
+}
+
