@@ -1,0 +1,370 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria;
+    overflow-x: hidden;
+    font-size: 3vh;
+}
+
+.imgDiv
+{
+    background-image: url(./images/wallpaper.jpg);
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    color: white;
+}
+
+.titleName
+{
+    font-size: 12.2vh;
+
+    margin-right: 10vh;
+}
+
+.titleS
+{
+    font-size: 7vh;
+    margin-right: 10vh;
+    margin-bottom: 10vh;
+}
+
+h1
+{
+    background-color: #243642;
+    font-size: 9vh;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+.bioDiv,
+.bioDiv1,
+.bioDiv3
+{
+    background-color: #243642;
+    height: 87vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pfpS
+{
+    width: 30%;
+    border-radius: 50%;
+
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bioS
+{
+    background-color: #387478;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 4vh;
+    padding: 3%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.interFaceDiv
+{
+    background-color: #629584;
+
+    width: 75vh;
+    height: 40vh;
+
+    border: 3px solid black;
+    border-radius: 6vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.numOfAttemptsDiv,
+.GuessingSectionDiv,
+.estimateDiv
+{
+    width: 100%;
+    height: 33%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3vh;
+}
+
+.guessInptS
+{
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 3vh;
+    height: 6vh;
+    width: 9vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    text-align: center;
+}
+
+.guessBtnS
+{
+    background-color: #387478;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 2vh;
+    height: 6vh;
+    width: 9vh;
+    padding-left: 1vh;
+    padding-right: 1vh;   
+    transition: background-color 0.15s; 
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+.guessBtnS:hover
+{
+    background-color: rgb(248, 248, 205);
+}
+
+.guessBtnS:active
+{
+    background-color: rgb(246, 221, 188);
+}
+
+.guessS
+{
+    font-size: 4vh;
+    margin-right: 1vh;
+}
+
+#lowerV
+{
+    margin-right: 1vh;
+}
+
+#upperV
+{
+    margin-left: 1vh;
+}
+
+.adT
+{
+    margin-right: 1vh;
+}
+
+.cardDiv
+{
+    background-color: #629584;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid black;
+    border-radius: 6vh;
+
+    width: 40vh;
+    height: 40vh;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.projectsS
+{
+    background-color: #243642;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+
+.numberS
+{
+    font-size: 20vh;
+    margin-bottom: 3vh;
+}
+
+.buttonSty
+{
+    background-color: #387478;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 2vh;
+    height: 6vh;
+    padding-left: 1vh;
+    padding-right: 1vh;   
+    transition: background-color 0.15s; 
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+.buttonSty:hover
+{
+    background-color: rgb(248, 248, 205);
+}
+
+.buttonSty:active
+{
+    background-color: rgb(246, 221, 188);
+}
+
+.hobbiesT
+{
+    width: 85%;
+    height: 90%;
+    background-color: #387478;
+
+    display: flex;
+    justify-content: center;
+    gap: 4vh;
+    align-items: center;
+
+    border-radius: 6vh;
+    border: 3px solid black;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hobbyCard
+{
+    background-color: #629584;
+
+    border: 3px solid black;
+    border-radius: 6vh;
+
+    width: 28%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.hobbyImg
+{
+    border-radius: 50%;
+    border: 3px solid black;
+
+    width: 30vh;
+    height: 30vh;
+
+    object-fit: cover;
+}
+
+.hobbyName
+{
+    font-size: 4vh;
+    margin: 1vh 0;
+}
+
+.hobbyDesc
+{
+    margin: 1vh 0;
+    font-style: italic;
+}
+
+.hobbyLink
+{
+    background-color: #387478;
+    border: 3px solid black;
+    border-radius: 6vh;
+    padding: 2vh 1vh;
+    text-decoration: none; 
+    transition: background-color 0.15s; 
+    margin-top: 2vh;
+    cursor: pointer;
+    color: black;
+}
+
+.hobbyLink:hover
+{
+    background-color: rgb(248, 248, 205);
+}
+
+.hobbyLink:active
+{
+    background-color: rgb(246, 221, 188);
+}
+
+.footerS
+{
+    background-color: black;
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.footerInfo
+{
+    font-size: 2vh;
+    font-style: italic;
+    color: white;
+}
+
+@media (max-width: 1100px)
+{
+    .bioDiv1
+    {
+        flex-direction: column;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        justify-content: space-between;
+        gap: 3vh;
+        min-height: 90vh;
+    }
+
+    .cardDiv
+    {
+        min-height: 40vh;
+    }
+
+    .interFaceDiv
+    {
+        min-height: 40vh;
+    }
+
+    .hobbiesT
+    {
+        flex-direction: column;
+        justify-content: space-evenly;
+        min-height: 185vh;
+        padding: 4vh 0;
+        max-width: 50vw;
+    }
+    
+    .bioDiv3
+    {
+        min-height: 195vh;
+    }
+
+    .hobbyCard
+    {
+        min-width: 45vh;
+        max-height: 60vh;
+    }
+}
+
+
+
+

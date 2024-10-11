@@ -3,21 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Ihab Novalić</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="mainBodyDiv">
-        <div class="sajt1Div">
-            <a href="./Projects/Counter Project/counter.html"><img src="images/sajt1.png"></a> 
+
+    <div class="imgDiv">
+        <p class="titleName">
+            Ihab Novalić
+        </p>
+        <p class="titleS">
+            Software Engineering
+        </p>
+    </div>
+    <h1>Hello World!</h1>
+    <div class="bioDiv">
+        <img src="./images/photo2.jpeg" class="pfpS">
+        <p class="bioS">
+            <span style="font-size: 5vh;">Hi there!</span> <br> <br> My name is Ihab Novalić, I am an enthusiastic student of Software Engineering. My dream is to one day become a full-stack programmer. <br> Aside from programming, there are many sides to my personality! I've made this little portfolio website as a project to present my work and future plans. I hope you have fun exploring and that we meet sometime in the future! <br> <br>Skills: <span style="font-style: italic;"> <br> HTML, CSS; <br> C, C++; <br>Yapping. </span>
+        </p>
+    </div>
+    <h1>My Projects</h1>
+    <p class="projectsS">
+        Here I want to show you some of the projects I made using HTML, CSS and JAVASCRIPT. I hope you have fun testing them!
+    </p>
+    <div class="bioDiv1" style="height: 65vh;">
+        
+        <div class="cardDiv">
+            <div class="numberDiv">
+                <p class="numberS" id="numberID">0</p>
+            </div>
+            <div class="buttonsDiv">
+                <button class="buttonSty" id="decreaseID">Decrease</button>
+                <button class="buttonSty" id="resetID">Reset</button>
+                <button class="buttonSty" id="increaseID">Increase</button>
+            </div>
         </div>
-        <div class="sajt2Div">
-            <a href="./Projects/Number Guessing Game/numberGuess.html"><img src="images/sajt2.png"></a>
+
+        <div class="interFaceDiv">
+            <div class="numOfAttemptsDiv">
+                <p class="guessS">Number of Attempts:</p>
+                <p class="guessS" id="attemptsJ">0</p>
+            </div>
+            <div class="GuessingSectionDiv">
+                <p class="middleS">Guess the Number (<p id="lowerV">1</p> - <p id="upperV">1000</p><p class="adT">):</p></p>
+                <input class="guessInptS" id="inputJ" type="text">
+                <button class="guessBtnS" id="guessJ">
+                    Guess
+                </button>
+                <button class="guessBtnS" id="resetBtn">
+                    Reset
+                </button>
+            </div>
+            <div class="estimateDiv">
+                <p id="estimateJ"></p>
+            </div>
         </div>
-        <div class="sajt3Div">
-            <a href="./BookStoreWebsite/webSitehtml.html"><img src="images/sajt3.png"></a> 
+    </div>
+    <h1>My Hobbies!</h1>
+    <p class="projectsS">
+        If you want to get to know me better aside from my professional work, I recommend you take a look at this page! <br> It's my three favorite hobbies!
+    </p>
+    <div class="bioDiv3" style="height: 77vh;">
+        <div class="hobbiesT">
+            <div class="hobbyCard">
+                <img src="./images/ChessSet.jpg" class="hobbyImg">
+                <p class="hobbyName">
+                    Chess
+                </p>
+                <p class="hobbyDesc">
+                    I love the strategy of chess!
+                </p>
+                <a target="_blank"  class="hobbyLink" href="https://lichess.org/">
+                    Play Chess!
+                </a>
+            </div>
+
+            <div class="hobbyCard">
+                <img src="./images/books.jpg" class="hobbyImg">
+                <p class="hobbyName">
+                    Reading
+                </p>
+                <p class="hobbyDesc">
+                    I absolutely love reading books!
+                </p>
+                <a target="_blank"  class="hobbyLink" href="https://annas-archive.org/">
+                    Online Library
+                </a>
+            </div>
+
+            <div class="hobbyCard">
+                <img src="./images/nature.jpg" class="hobbyImg">
+                <p class="hobbyName">
+                    Nature
+                </p>
+                <p class="hobbyDesc">
+                    I'm always up for a walk!
+                </p>
+                <a target="_blank" href="https://www.google.com/maps/@43.4187901,19.9278112,3a,75y,28.18h,91.93t/data=!3m8!1e1!3m6!1sAF1QipNQyzqyDtmb_LOjx0Ikq3-jiKGJ_dNLFfnVJkS9!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNQyzqyDtmb_LOjx0Ikq3-jiKGJ_dNLFfnVJkS9%3Dw203-h100-k-no-pi-0-ya40-ro-0-fo100!7i8192!8i4096?coh=205409&entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D" class="hobbyLink">
+                    Take a walk!
+                </a>
+            </div>
+
         </div>
-    </div>   
+    </div>
+    <div class="footerS">
+        <p class="footerInfo">
+            All Rights Reserved &#183 HabiIncorporated 2024. &#183 ihabnovalic13@gmail.com
+        </p>
+        <br>
+    </div>
     
+    <script src="javaS.js"></script>
+    <script src="counter.js"></script>
 </body>
 </html>
